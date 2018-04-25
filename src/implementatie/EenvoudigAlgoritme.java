@@ -15,7 +15,7 @@ public class EenvoudigAlgoritme {
 	
 		//punten inlezen
 		ArrayList <Point2D.Double> punten = puntenInlezen();
-		
+		long tijdA = System.currentTimeMillis();
 		//terug te geven
 		double d = Double.POSITIVE_INFINITY;
 		Point2D.Double dpp1 = new Point2D.Double();
@@ -50,9 +50,9 @@ public class EenvoudigAlgoritme {
 			}
 			i++;
 		}
-		
+		long tijd = System.currentTimeMillis() - tijdA;
 		//resultaat printen
-		System.out.println("Punt1 " + dpp1 + "\n"+ "Punt2 " + dpp2 + "\n"+  "Afstand " + d);
+		System.out.println("Punt1 " + dpp1 + "\n"+ "Punt2 " + dpp2 + "\n"+  "Afstand " + d + "\n" + "Tijd "+ tijd);
 		
 	}
 
