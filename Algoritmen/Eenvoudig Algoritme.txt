@@ -1,12 +1,12 @@
 
-rij P 
-int kortsteAfstand = infinity 
-While i = 0 < length(P)
-	While j = i+1 < length(P)
-	a = P[i]
-	b = P[j]
+rij  
+int d = infinity 
+While i = 0 < length(rij)
+	While j = i+1 < length(rij)
+	a = rij[i]
+	b = rij[j]
 	
-	if Afstand(a,b) < kortsteAfstand
+	if Afstand(a,b) < d
 		dpp1 = a
 		dpp2 = b
 		d = Afstand(a,b)

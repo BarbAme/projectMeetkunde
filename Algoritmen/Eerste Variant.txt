@@ -1,1 +1,16 @@
-//TODO
+rij  
+int d = infinity 
+
+While i = 0 < length(rij)
+	While (j = i+1 < length(rij)) AND (rij[j].x - rij[i].x < d)
+		a = rij[i]
+		b = rij[j]
+		
+		if Afstand(a,b) < d
+			dpp1 = a
+			dpp2 = b
+			d = Afstand(a,b)
+	j++
+i++
+
+return dpp1,dpp2,d			
