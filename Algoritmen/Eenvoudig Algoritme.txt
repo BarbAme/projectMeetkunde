@@ -1,1 +1,16 @@
-//TODO
+
+rij P 
+int kortsteAfstand = infinity 
+While i = 0 < length(P)
+	While j = i+1 < length(P)
+	a = P[i]
+	b = P[j]
+	
+	if Afstand(a,b) < kortsteAfstand
+		dpp1 = a
+		dpp2 = b
+		d = Afstand(a,b)
+	j++
+i++
+
+return dpp1,dpp2,d	
