@@ -9,7 +9,7 @@ import java.text.DecimalFormat;
 public class WillekeurigePuntenEenvoudig {
 	
 	public static void main(String[] args) {
-		int aantalPunten=50;
+		int aantalPunten=5000;
 		int i=0;
 		
 			while (i<aantalPunten){
