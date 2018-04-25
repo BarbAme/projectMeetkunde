@@ -52,7 +52,7 @@ public class EenvoudigAlgoritme {
 		}
 		long tijd = System.currentTimeMillis() - tijdA;
 		//resultaat printen
-		System.out.println("Punt1 " + dpp1 + "\n"+ "Punt2 " + dpp2 + "\n"+  "Afstand " + d + "\n" + "Tijd "+ tijd);
+		System.out.println("Aantal Punten " + aantalP + "\n" + "Punt1 " + dpp1 + "\n"+ "Punt2 " + dpp2 + "\n"+  "Afstand " + d + "\n" + "Tijd "+ tijd);
 		
 	}
 
@@ -65,7 +65,7 @@ public class EenvoudigAlgoritme {
 		try {
 			
 			//input file
-	        File f = new File("randomPoints10.txt");
+	        File f = new File("OutFile100.txt");
 	        BufferedReader b = new BufferedReader(new FileReader(f));
 	
 	        //lijn per lijn inlezen

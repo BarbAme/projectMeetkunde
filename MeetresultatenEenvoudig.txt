@@ -1,0 +1,14 @@
+Meetresultaten Eenvoudig Algoritme
+Aantal punten - tijd
+
+
+Input:		Output:
+10			0
+100			2
+1000		28
+
+10 000		242
+20 000		899
+30 000		2087
+40 000		4067
+50 000		6983
