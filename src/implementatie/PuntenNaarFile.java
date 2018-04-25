@@ -10,15 +10,17 @@ import java.io.PrintWriter;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 
-//simpele manier om willekeurige coordinaten te krijgen voor M = 2
+//simpele manier om willekeurige coordinaten te krijgen
 //zet output meteen in txt file
-//, moeten nog wel . worden
 
 
 public class PuntenNaarFile {
 	
 	public static void main(String[] args) {
-		int aantalPunten=1000000;
+		int dim = 2;		//Waarde voor M, dimensie
+		int aantalPunten=1000; //aantal punten
+		int algoritme = 2;		//algoritme
+		
 		int i=0;
 		DecimalFormat numberFormat = new DecimalFormat("0.000000000000000");
 	    DecimalFormatSymbols sym = DecimalFormatSymbols.getInstance();
@@ -28,12 +30,17 @@ public class PuntenNaarFile {
 				
 			    try {
 			        PrintStream out = new PrintStream(new FileOutputStream(
-			            "OutFile1000000b.txt"));
+			            "OutFile"+aantalPunten+"p"+dim+"d"+".txt"));
+			        out.println(algoritme);
+			        out.println(dim);
+			        out.println(aantalPunten);
 			        while (i<aantalPunten){
 						i++;
-						double pointX = Math.random();
-						double pointY = Math.random();
-			          out.println(numberFormat.format(pointX) + " " + numberFormat.format(pointY));
+						for (int m=0; m<dim;m++){
+							double coord = Math.random();
+							out.print(numberFormat.format(coord) + " " );
+						}
+						out.println();
 			        }
 			        out.close();
 

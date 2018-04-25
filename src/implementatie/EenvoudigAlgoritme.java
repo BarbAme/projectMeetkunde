@@ -2,8 +2,13 @@ package implementatie;
 import java.awt.geom.Point2D;
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.PrintStream;
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
 import java.util.ArrayList;
 
 
@@ -54,6 +59,9 @@ public class EenvoudigAlgoritme {
 		//resultaat printen
 		System.out.println("Aantal Punten " + aantalP + "\n" + "Punt1 " + dpp1 + "\n"+ "Punt2 " + dpp2 + "\n"+  "Afstand " + d + "\n" + "Tijd "+ tijd);
 		
+		//resultaat in file
+		Output(dpp1,dpp2,d,tijd);
+
 	}
 
 
@@ -65,7 +73,7 @@ public class EenvoudigAlgoritme {
 		try {
 			
 			//input file
-	        File f = new File("OutFile100.txt");
+	        File f = new File("OutFile10000.txt");				//TODO bij final, input.txt
 	        BufferedReader b = new BufferedReader(new FileReader(f));
 	
 	        //lijn per lijn inlezen
@@ -106,6 +114,27 @@ public class EenvoudigAlgoritme {
 		double afstand = Math.sqrt(tempX+tempY);
 		
 		return afstand;
+	}
+
+	public static void Output(Point2D.Double a, Point2D.Double b, double afstand, long duur){
+		try {
+	        PrintStream out = new PrintStream(new FileOutputStream("output.txt"));
+	        
+	        DecimalFormat f = new DecimalFormat("0.000000000000000");
+		    DecimalFormatSymbols sym = DecimalFormatSymbols.getInstance();
+		    sym.setDecimalSeparator('.');
+		   f.setDecimalFormatSymbols(sym);	
+		    
+	        out.println(f.format(a.getX()) + " " + f.format(b.getX()));
+	        out.println(f.format(a.getY()) + " " + f.format(b.getY()));
+	        out.println(f.format(afstand));
+	        out.println(duur);
+			        
+	        out.close();
+
+	      } catch (FileNotFoundException e) {
+	        e.printStackTrace();
+	      }
 	}
 }
 
