@@ -65,7 +65,7 @@ public class EenvoudigAlgoritme {
 		try {
 			
 			//input file
-	        File f = new File("randomPoints2.txt");
+	        File f = new File("randomPoints10.txt");
 	        BufferedReader b = new BufferedReader(new FileReader(f));
 	
 	        //lijn per lijn inlezen
