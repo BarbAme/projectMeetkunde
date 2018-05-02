@@ -1,1 +1,32 @@
-//TODO
+rij 
+t
+int d = infinity 
+
+While (i = 0 < length(rij))
+    voegtoe(t, rij[i])
+  
+    p = onder(t,rij[i])
+    While (p.y >= rij[i].y - d)      
+      if (Afstand(p, rij[i]) < d)
+			  dpp1 = p
+			  dpp2 = rij[i]
+			  d = Afstand(dpp1, dpp2)           
+      for (p in t)
+        if (p.x < rij[i].x - d)
+          verwijder(t, p)   
+       p = onder(t, p)
+      
+    p = boven(t,rij[i])    
+    While (p.y <= rij[i].y + d)
+      if (Afstand(p, rij[i]) < d)
+			  dpp1 = p
+			  dpp2 = rij[i]
+			  d = Afstand(dpp1, dpp2)          
+      for (p in t)
+        if (p.x < rij[i].x - d)
+         verwijder(t, p)    
+      p = boven(t, p)
+
+    i++
+
+return dpp1,dpp2,d
