@@ -22,6 +22,8 @@ public class Main {
 	public static void main(String[] args) {
 		punten = puntenInlezen();
 		System.out.println("algoritme: " + algoritme + " " + "dimensie: "+  M);
+		Arrays.sort(punten, (a, b) -> Double.compare(a[0], b[0]));
+		//print2D(punten);
 		
 		switch(algoritme){
 		case 1: EenvoudigAlgoritme();
@@ -30,15 +32,73 @@ public class Main {
 		}
 		
 	}
-	
+	public static long uitvoeren(String invoer){
+		long tijd = 999;;
+		punten = puntenInlezen(invoer);
+		System.out.println("algoritme: " + algoritme + " " + "dimensie: "+  M);
+		Arrays.sort(punten, (a, b) -> Double.compare(a[0], b[0]));
+		switch(algoritme){
+		case 1: tijd =EenvoudigAlgoritme();
+		case 2: tijd =EersteVarAlgoritme();
+		case 3: tijd =TweedeVarAlgoritme();
+		 
+		}
+		return tijd;
+	}
 	public static double[][] puntenInlezen(){
+		//punten inlezen van textfile als array
+		
+			
+			try {
+				
+				//input file
+		        File f = new File("OutFile1000p2d.txt");				//TODO bij final, input.txt
+		        BufferedReader b = new BufferedReader(new FileReader(f));
+		
+		        //lijn per lijn inlezen
+		        String readLine = "";
+		        
+		        algoritme = Integer.parseInt(b.readLine());
+		        M = Integer.parseInt(b.readLine());
+		        aantal = Integer.parseInt(b.readLine());
+		        
+		        //lijst met punten in dimensie M
+		        punten = new double[aantal][M];
+		        
+		        int i = 0;
+		        
+		        //zolang einde niet bereikt
+		        while ((readLine = b.readLine()) != null) {
+		        	
+		        	//lijn splitsen om coordinaten te krijgen
+		        	String[] splitted = readLine.split(" ");
+		        	
+		        	//coordinaten van string naar double in lijst zetten
+		        	for (int m=0;m<M;m++){
+		        		punten[i][m] =  Double.parseDouble(splitted[m]);
+
+		        	}
+		        	i++;
+
+		        }
+		        b.close();
+		
+		    } catch (IOException e) {
+		        e.printStackTrace();
+		    }
+
+		
+
+			return punten;
+		}
+	public static double[][] puntenInlezen(String invoer){
 	//punten inlezen van textfile als array
 	
 		
 		try {
 			
 			//input file
-	        File f = new File("OutFile1000p2d.txt");				//TODO bij final, input.txt
+	        File f = new File(invoer);				//TODO bij final, input.txt
 	        BufferedReader b = new BufferedReader(new FileReader(f));
 	
 	        //lijn per lijn inlezen
@@ -78,7 +138,9 @@ public class Main {
 		return punten;
 	}
 	
-	public static void EenvoudigAlgoritme(){
+
+	
+	public static long EenvoudigAlgoritme(){
 		long tijd1 = System.currentTimeMillis();
 		double d = Double.POSITIVE_INFINITY;
 		double afst = 0;
@@ -98,9 +160,10 @@ public class Main {
 		}
 		long duur = System.currentTimeMillis() - tijd1;
 		Output(dpp1,dpp2,d,duur);
+		return duur;
 		
 	}
-	public static void EersteVarAlgoritme(){
+	public static long EersteVarAlgoritme(){
 		long tijd1 = System.currentTimeMillis();
 		double d = Double.POSITIVE_INFINITY;
 		double afst = 0;
@@ -121,10 +184,11 @@ public class Main {
 		}
 		long duur = System.currentTimeMillis() - tijd1;
 		Output(dpp1,dpp2,d,duur);
-
+		return duur;
 	}
-	public static void TweedeVarAlgoritme(){
+	public static long TweedeVarAlgoritme(){
 		//TODO
+		return 999;
 	}
 	
 	public static double Afstand(int a, int b){
@@ -137,6 +201,15 @@ public class Main {
 		return Math.sqrt(som);
 	}
 
+    public static void print2D(double mat[][])
+    {
+        // Loop through all rows
+        for (double[] row : mat)
+ 
+            // converting each row as string
+            // and then printing in a separate line
+            System.out.println(Arrays.toString(row));
+    }
 	public static void Output(int a, int b, double d, long duur){
 		try {
 	        PrintStream out = new PrintStream(new FileOutputStream("output.txt"));

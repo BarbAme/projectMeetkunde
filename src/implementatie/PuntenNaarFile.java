@@ -15,11 +15,19 @@ import java.text.DecimalFormatSymbols;
 
 
 public class PuntenNaarFile {
+	int dim = 0;		//Waarde voor M, dimensie
+	int aantalPunten=0; //aantal punten
+	int algoritme = 0;		//algoritme
 	
-	public static void main(String[] args) {
-		int dim = 2;		//Waarde voor M, dimensie
-		int aantalPunten=1000; //aantal punten
-		int algoritme = 2;		//algoritme
+	public static void main(String[] args ) {
+		
+
+
+	}
+	public static void puntenMaken (int dimensie, int aantal, int alg){
+		int dim = dimensie;		//Waarde voor M, dimensie
+		int aantalPunten=aantal; //aantal punten
+		int algoritme = alg;		//algoritme
 		
 		int i=0;
 		DecimalFormat numberFormat = new DecimalFormat("0.000000000000000");
@@ -49,8 +57,6 @@ public class PuntenNaarFile {
 			      }
 
 			    System.out.println("Done");
-
-
 	}
 }
 
