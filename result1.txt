@@ -1,0 +1,5 @@
+test
+algoritme: 1
+dimensie2
+aantal1000
+tijd: 999
