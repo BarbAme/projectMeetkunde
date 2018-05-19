@@ -10,7 +10,7 @@ While i = 0 < length(rij)
 			dpp1 = a
 			dpp2 = b
 			d = Afstand(a,b)
-	j++
-i++
+		j++
+	i++
 
 return dpp1,dpp2,d			

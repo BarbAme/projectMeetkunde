@@ -3,14 +3,14 @@ rij
 int d = infinity 
 While i = 0 < length(rij)
 	While j = i+1 < length(rij)
-	a = rij[i]
-	b = rij[j]
+		a = rij[i]
+		b = rij[j]
 	
-	if Afstand(a,b) < d
-		dpp1 = a
-		dpp2 = b
-		d = Afstand(a,b)
-	j++
-i++
+		if Afstand(a,b) < d
+			dpp1 = a
+			dpp2 = b
+			d = Afstand(a,b)
+		j++
+	i++
 
 return dpp1,dpp2,d	
