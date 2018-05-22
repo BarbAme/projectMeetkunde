@@ -9,6 +9,14 @@ import java.util.ArrayList;
 
 public class Testen {
 	public static void main(String[] args) throws FileNotFoundException {
+		try {
+	        PrintStream out = new PrintStream(new FileOutputStream(
+	            "outputTijd.txt"));
+	        out.println("tijd");
+
+	      } catch (FileNotFoundException e) {
+	        e.printStackTrace();
+	      }
 		try
 		{
 		   
@@ -43,12 +51,12 @@ public class Testen {
 		PrintStream out = new PrintStream(new FileOutputStream(
 	            "result_algoritme_"+algoritmeMin + " - " + algoritmeMax +".txt"));
 		out.println("test");
-		for (int runs = 0; runs < 100; runs ++){
-		for (int d = 2; d <3; d++)
+		for (int runs = 0; runs < 10; runs ++){
+		for (int d = 2; d <10; d++)
 		{
 			for(int alg = algoritmeMin; alg <= algoritmeMax; alg ++){
 				
-				for(int aantal = 10; aantal < 100001; aantal = aantal *10)
+				for(int aantal = 10000; aantal < 10001; aantal = aantal *10)
 				{
 					
 					PuntenNaarFile.puntenMaken(d, aantal, alg);
@@ -57,6 +65,17 @@ public class Testen {
 					
 					aantalPunten.add(aantal);
 					tijdNodig.add(tijd);
+					try
+					{
+					    String filename5= "outputTijd.txt";
+					    FileWriter fw = new FileWriter(filename5,true); //the true will append the new data
+					    fw.write(tijd + " ");//appends the string to the file
+					    fw.close();
+					}
+					catch(IOException ioe)
+					{
+					    System.err.println("IOException: " + ioe.getMessage());
+					}
 					
 					out.println("algoritme: "+alg);
 					out.println("dimensie: " +d);
@@ -89,9 +108,23 @@ public class Testen {
 		{
 		    System.err.println("IOException: " + ioe.getMessage());
 		}
+		try
+		{
+		    String filename5= "outputTijd.txt";
+		    FileWriter fw = new FileWriter(filename5,true); //the true will append the new data
+		    fw.write("\n");//appends the string to the file
+		    fw.close();
+		}
+		catch(IOException ioe)
+		{
+		    System.err.println("IOException: " + ioe.getMessage());
+		}
+		
+	
 		System.out.println(runs);
 		}
 		
+	
 		
 		out.close();
 		System.out.println("Einde Testen");
