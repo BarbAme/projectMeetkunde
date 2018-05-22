@@ -11,7 +11,7 @@ import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.util.Arrays;
 
-public class Main {
+public class Main2 {
 	 //static int algoritme = 0;
 	//static int M = 0;
 	//static int aantal = 0;
@@ -24,7 +24,6 @@ public class Main {
 	public static void main(String[] args) {
 		
 		punten = puntenInlezen();
-		System.out.println("algoritme: " + algoritme + " " + "dimensie: "+  M + " punten: " + aantal);
 		Arrays.sort(punten, (a, b) -> Double.compare(a[0], b[0]));
 		//print2D(punten);
 		
@@ -38,25 +37,7 @@ public class Main {
 		}
 		
 	}
-	public static long uitvoeren(String invoer, int alg, int dim, int ant){
-		int algoritme = alg;
-		int M = dim;
-		int aantal = ant;
-		double[][] punten = null;
-		long tijd = 999;;
-		punten = puntenInlezen(invoer, algoritme, M, aantal, punten);
-		System.out.println("algoritme: " + algoritme + " " + "dimensie: "+  M + " punten: " + aantal);
-		Arrays.sort(punten, (a, b) -> Double.compare(a[0], b[0]));
-		switch(algoritme){
-		case 1: tijd =EenvoudigAlgoritme(aantal, M,punten);
-		break;
-		case 2: tijd =EersteVarAlgoritme(aantal, M,punten);
-		break;
-		case 3: tijd =TweedeVarAlgoritme(aantal, M,punten);
-		break;
-		}
-		return tijd;
-	}
+
 	public static double[][] puntenInlezen(){
 		//punten inlezen van textfile als array
 		
@@ -64,7 +45,7 @@ public class Main {
 			try {
 				
 				//input file
-		        File f = new File("OutFile10000p3d2a.txt");				//TODO bij final, input.txt
+		        File f = new File("input.txt");				
 		        BufferedReader b = new BufferedReader(new FileReader(f));
 		
 		        //lijn per lijn inlezen
@@ -103,52 +84,7 @@ public class Main {
 
 			return punten;
 		}
-	public static double[][] puntenInlezen(String invoer,int algoritme, int M, int aantal,double[][] punten){
-	//punten inlezen van textfile als array
 	
-		
-		try {
-			
-			//input file
-	        File f = new File(invoer);				//TODO bij final, input.txt
-	        BufferedReader b = new BufferedReader(new FileReader(f));
-	
-	        //lijn per lijn inlezen
-	        String readLine = "";
-	        
-	        algoritme = Integer.parseInt(b.readLine());
-	        M = Integer.parseInt(b.readLine());
-	        aantal = Integer.parseInt(b.readLine());
-	        
-	        //lijst met punten in dimensie M
-	        punten = new double[aantal][M];
-	        
-	        int i = 0;
-	        
-	        //zolang einde niet bereikt
-	        while ((readLine = b.readLine()) != null) {
-	        	
-	        	//lijn splitsen om coordinaten te krijgen
-	        	String[] splitted = readLine.split(" ");
-	        	
-	        	//coordinaten van string naar double in lijst zetten
-	        	for (int m=0;m<M;m++){
-	        		punten[i][m] =  Double.parseDouble(splitted[m]);
-
-	        	}
-	        	i++;
-
-	        }
-	        b.close();
-	
-	    } catch (IOException e) {
-	        e.printStackTrace();
-	    }
-
-	
-
-		return punten;
-	}
 	
 
 	
@@ -263,15 +199,6 @@ public class Main {
 		return Math.sqrt(som);
 	}
 
-    public static void print2D(double mat[][])
-    {
-        // Loop through all rows
-        for (double[] row : mat)
- 
-            // converting each row as string
-            // and then printing in a separate line
-            System.out.println(Arrays.toString(row));
-    }
 	public static void Output(int a, int b, double d, long duur, double[][] punten, int M){
 		try {
 	        PrintStream out = new PrintStream(new FileOutputStream("output.txt"));
@@ -280,18 +207,22 @@ public class Main {
 		    DecimalFormatSymbols sym = DecimalFormatSymbols.getInstance();
 		    sym.setDecimalSeparator('.');
 		   f.setDecimalFormatSymbols(sym);	
+		   DecimalFormat numberFormat = new DecimalFormat("0.000000000000000");
+		    DecimalFormatSymbols bol = DecimalFormatSymbols.getInstance();
+		    bol.setDecimalSeparator('.');
+		    numberFormat.setDecimalFormatSymbols(sym);
 	        
 	        for (int m=0; m<M;m++){
 	        	//print 1e punt
-				out.print(punten[a][m] + " " );
+				out.print(numberFormat.format(punten[a][m]) + " " );
 			}
 			out.println();
-		 for (int m=0; m<M;m++){
+		    for (int m=0; m<M;m++){
 	        	//print 2e punt
-				out.print(punten[b][m] + " " );
+				out.print(numberFormat.format(punten[b][m]) + " " );
 			}
 			out.println();
-
+	        
 			//afstand
 	        out.println(f.format(d));
 	        //uitvoeringstijd
@@ -302,7 +233,6 @@ public class Main {
 	      } catch (FileNotFoundException e) {
 	        e.printStackTrace();
 	      }
-		System.out.println("Done");
 	}
 	public static void Output(double[] a, double[] b, double d, long duur, double[][] punten, int M){
 		try {
@@ -312,15 +242,20 @@ public class Main {
 		    DecimalFormatSymbols sym = DecimalFormatSymbols.getInstance();
 		    sym.setDecimalSeparator('.');
 		   f.setDecimalFormatSymbols(sym);	
+		   
+		    DecimalFormat numberFormat = new DecimalFormat("0.000000000000000");
+		    DecimalFormatSymbols bol = DecimalFormatSymbols.getInstance();
+		    bol.setDecimalSeparator('.');
+		    numberFormat.setDecimalFormatSymbols(sym);
 	        
 	        for (int m=0; m<M;m++){
 	        	//print 1e punt
-				out.print(a[m] + " " );
+				out.print(numberFormat.format(a[m]) + " " );
 			}
 			out.println();
-		 for (int m=0; m<M;m++){
+		    for (int m=0; m<M;m++){
 	        	//print 2e punt
-				out.print(b[m] + " " );
+				out.print(numberFormat.format(b[m]) + " " );
 			}
 			out.println();
 
@@ -334,7 +269,6 @@ public class Main {
 	      } catch (FileNotFoundException e) {
 	        e.printStackTrace();
 	      }
-		System.out.println("Done");
 	}
 
 

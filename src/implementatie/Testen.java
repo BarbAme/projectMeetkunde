@@ -9,18 +9,18 @@ public class Testen {
 	public static void main(String[] args) throws FileNotFoundException {
 		String invoer;
 		long tijd = 999;
-		int algoritmeMin = 3;
+		int algoritmeMin = 1;
 		int algoritmeMax = 3;
 		ArrayList<Integer> aantalPunten = new ArrayList<Integer>();
 		ArrayList<Long> tijdNodig = new ArrayList<Long>();
 		PrintStream out = new PrintStream(new FileOutputStream(
 	            "result_algoritme_"+algoritmeMin + " - " + algoritmeMax +".txt"));
 		out.println("test");
-		for (int d = 2; d <3; d++)
+		for (int d = 2; d <10; d++)
 		{
 			for(int alg = algoritmeMin; alg <= algoritmeMax; alg ++){
 				
-				for(int aantal = 5000; aantal < 100001; aantal = aantal + 5000)
+				for(int aantal = 5000; aantal < 5001; aantal = aantal + 5000)
 				{
 					
 					PuntenNaarFile.puntenMaken(d, aantal, alg);
