@@ -44,19 +44,19 @@ public class Testen {
 		
 		String invoer;
 		long tijd = 999;
-		int algoritmeMin = 2;
-		int algoritmeMax = 2;
+		int algoritmeMin = 3;
+		int algoritmeMax = 3;
 		ArrayList<Integer> aantalPunten = new ArrayList<Integer>();
 		ArrayList<Long> tijdNodig = new ArrayList<Long>();
 		PrintStream out = new PrintStream(new FileOutputStream(
 	            "result_algoritme_"+algoritmeMin + " - " + algoritmeMax +".txt"));
 		out.println("test");
-		for (int runs = 0; runs < 10; runs ++){
-		for (int d = 2; d <10; d++)
+		for (int runs = 0; runs < 1; runs ++){
+		for (int d = 2; d <3; d++)
 		{
 			for(int alg = algoritmeMin; alg <= algoritmeMax; alg ++){
 				
-				for(int aantal = 10000; aantal < 10001; aantal = aantal *10)
+				for(int aantal = 6250; aantal < 800001; aantal = aantal *2)
 				{
 					
 					PuntenNaarFile.puntenMaken(d, aantal, alg);
@@ -133,10 +133,10 @@ public class Testen {
 //		for (int i = 0; i < aantalPunten.size(); i++){
 //			System.out.print(aantalPunten.get(i) + " " );	
 //		}
-//		System.out.println();
-//		for (int i = 0; i < tijdNodig.size(); i++){
-//			System.out.print(tijdNodig.get(i) + " " );	
-//		}
+		System.out.println();
+		for (int i = 0; i < tijdNodig.size(); i++){
+			System.out.print(tijdNodig.get(i) + " " );	
+		}
 		
 	}
 

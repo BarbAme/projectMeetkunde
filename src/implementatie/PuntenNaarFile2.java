@@ -20,7 +20,7 @@ public class PuntenNaarFile2 {
 	public static void main(String[] args ) {
 		int dim = 2;		//Waarde voor M, dimensie
 		int aantalPunten=1000; //aantal punten
-		int algoritme = 1;		//algoritme
+		int algoritme = 3;		//algoritme
 		puntenMaken(dim,aantalPunten,algoritme);
 
 

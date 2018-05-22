@@ -231,6 +231,9 @@ public class Main {
 		double[] dpp1 = null;
 		double[] dpp2 = null;
 		 
+		double [] check = null;
+	    double [] check2 = null;
+	      
 		 //placeholder punt p_i
 		 double[] boven = null;
 		 double[] onder = null;
@@ -248,15 +251,8 @@ public class Main {
 					  dpp1 = boven;
 					  dpp2 = punten[i];
 					  d = Afstand(dpp1, dpp2);
-		      }	
-		      
-		      double [] min = t.min();
-		      while (min[0] < punten[i][0] - d) {
-		    	  t.delete(p);
-		    	  min = t.min();		    	  
-		    	  }
 		      }
-			   
+				   
 		      boven = t.boven(boven[1]);
 		    
 			}
@@ -270,19 +266,24 @@ public class Main {
 					  dpp1 = onder;
 					  dpp2 = punten[i];
 					  d = Afstand(dpp1, dpp2);
-		      }	
-		      
-		      double [] min = t.min();
-		      while (min[0] < punten[i][0] - d) {
-		    	  t.delete(p);
-		    	  min = t.min();		    	  
-		    	  }
-		      }
+		      }	  
 				   
 		      onder = t.onder(onder[1]);
 		    }
+		      
+		      check = t.min();
+		      while (check != null){
+		    	  check2 = t.boven(check[1]);
+			      if (Math.abs(check[0] - punten[i][0]) > d) {
+			    	  t.delete(check[1]);      	  
+			      }
+			      check = check2;
+		      }
+				   
+		      
+		    }
 			
-		}
+		
 	    long duur = System.currentTimeMillis() - tijd1;
 		Output(dpp1,dpp2,d,duur, punten, M);
 		return duur;
