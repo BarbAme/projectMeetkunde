@@ -1,0 +1,101 @@
+test
+algoritme: 3
+dimensie: 2
+aantal: 5000
+tijd: 13
+
+algoritme: 3
+dimensie: 2
+aantal: 10000
+tijd: 13
+
+algoritme: 3
+dimensie: 2
+aantal: 15000
+tijd: 18
+
+algoritme: 3
+dimensie: 2
+aantal: 20000
+tijd: 25
+
+algoritme: 3
+dimensie: 2
+aantal: 25000
+tijd: 26
+
+algoritme: 3
+dimensie: 2
+aantal: 30000
+tijd: 34
+
+algoritme: 3
+dimensie: 2
+aantal: 35000
+tijd: 30
+
+algoritme: 3
+dimensie: 2
+aantal: 40000
+tijd: 39
+
+algoritme: 3
+dimensie: 2
+aantal: 45000
+tijd: 45
+
+algoritme: 3
+dimensie: 2
+aantal: 50000
+tijd: 42
+
+algoritme: 3
+dimensie: 2
+aantal: 55000
+tijd: 53
+
+algoritme: 3
+dimensie: 2
+aantal: 60000
+tijd: 62
+
+algoritme: 3
+dimensie: 2
+aantal: 65000
+tijd: 60
+
+algoritme: 3
+dimensie: 2
+aantal: 70000
+tijd: 74
+
+algoritme: 3
+dimensie: 2
+aantal: 75000
+tijd: 82
+
+algoritme: 3
+dimensie: 2
+aantal: 80000
+tijd: 68
+
+algoritme: 3
+dimensie: 2
+aantal: 85000
+tijd: 98
+
+algoritme: 3
+dimensie: 2
+aantal: 90000
+tijd: 105
+
+algoritme: 3
+dimensie: 2
+aantal: 95000
+tijd: 114
+
+algoritme: 3
+dimensie: 2
+aantal: 100000
+tijd: 104
+

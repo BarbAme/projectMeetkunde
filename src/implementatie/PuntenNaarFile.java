@@ -39,7 +39,7 @@ public class PuntenNaarFile {
 				
 			    try {
 			        PrintStream out = new PrintStream(new FileOutputStream(
-			            "OutFile"+aantalPunten+"p"+dim+"d1"+".txt"));
+			            "OutFile"+aantalPunten+"p"+dim+"d"+".txt"));
 			        out.println(algoritme);
 			        out.println(dim);
 			        out.println(aantalPunten);

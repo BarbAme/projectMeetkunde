@@ -1,6 +1,5 @@
 package implementatie;
 
-import java.awt.geom.Point2D;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -25,7 +24,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		punten = puntenInlezen();
-		System.out.println("algoritme: " + algoritme + " " + "dimensie: "+  M);
+		System.out.println("algoritme: " + algoritme + " " + "dimensie: "+  M + " punten: " + aantal);
 		Arrays.sort(punten, (a, b) -> Double.compare(a[0], b[0]));
 		//print2D(punten);
 		
@@ -43,7 +42,7 @@ public class Main {
 		double[][] punten = null;
 		long tijd = 999;;
 		punten = puntenInlezen(invoer, algoritme, M, aantal, punten);
-		System.out.println("algoritme: " + algoritme + " " + "dimensie: "+  M);
+		System.out.println("algoritme: " + algoritme + " " + "dimensie: "+  M + " punten: " + aantal);
 		Arrays.sort(punten, (a, b) -> Double.compare(a[0], b[0]));
 		switch(algoritme){
 		case 1: tijd =EenvoudigAlgoritme(aantal, M,punten);
@@ -196,10 +195,52 @@ public class Main {
 		Output(dpp1,dpp2,d,duur, punten, M);
 		return duur;
 	}
+
 	public static long TweedeVarAlgoritme(int aantal, int M,double[][] punten){
-		//TODO
-		return 999;
-	}
+		RBTree<Double,Double[]> t = new RBTree<Double,Double[]>();
+		long tijd1 = System.currentTimeMillis();
+		double d = Double.POSITIVE_INFINITY;
+		double[] dpp1 = null;
+		double[] dpp2 = null;
+		 
+		 //placeholder punt p_i
+		 double[] boven = null;
+		 double[] onder = null;
+		 
+		 for(int i = 0; i<aantal;i++){ //voor alle punten:
+			t.put(punten[i][1],punten[i]); //p_i in gebalanceerde zoekboom t
+			
+			//punten boven p_i
+			boven = t.boven(punten[i][1]);
+		    while (Math.abs(boven[1] - punten[i][1]) < d){
+		    	//binnen horizontale strook
+		      if (Afstand(punten[i], boven) < d){
+		    	  //kortere afstand
+					  dpp1 = boven;
+					  dpp2 = punten[i];
+					  d = Afstand(dpp1, dpp2);
+		      }
+				   
+		      boven = t.boven(boven[1]);
+		    }
+		    
+		    //punten onder p_i
+		    onder = t.onder(punten[i][1]);
+		    while (Math.abs(onder[1] - punten[i][1]) < d){
+		      if (Afstand(punten[i], onder) < d){
+					  dpp1 = onder;
+					  dpp2 = punten[i];
+					  d = Afstand(dpp1, dpp2);
+		      }	  
+				   
+		      onder = t.onder(onder[1]);
+		    }
+		}
+	    long duur = System.currentTimeMillis() - tijd1;
+		Output(dpp1,dpp2,d,duur, punten, M);
+		return duur;
+
+	}			
 	
 	public static double Afstand(int a, int b, int M,double[][] punten){
 		double som = 0;
@@ -207,6 +248,14 @@ public class Main {
 			//som kwadraten verschil coordinaten
 	
 			som = som + Math.pow((punten[a][i]-punten[b][i]), 2);	
+		}
+		return Math.sqrt(som);
+	}
+	public static double Afstand(double[] a, double[] b){
+		double som = 0;
+		for (int i=0; i<M;i++){
+			//som kwadraten verschil coordinaten
+			som = som + Math.pow((a[i]-b[i]), 2);	
 		}
 		return Math.sqrt(som);
 	}
@@ -252,7 +301,38 @@ public class Main {
 	      }
 		System.out.println("Done");
 	}
+	public static void Output(double[] a, double[] b, double d, long duur, double[][] punten, int M){
+		try {
+	        PrintStream out = new PrintStream(new FileOutputStream("output.txt"));
+	        
+	        DecimalFormat f = new DecimalFormat("0.000000000000000");
+		    DecimalFormatSymbols sym = DecimalFormatSymbols.getInstance();
+		    sym.setDecimalSeparator('.');
+		   f.setDecimalFormatSymbols(sym);	
+	        
+	        for (int m=0; m<M;m++){
+	        	//print 1e punt
+				out.print(a[m] + " " );
+			}
+			out.println();
+		 for (int m=0; m<M;m++){
+	        	//print 2e punt
+				out.print(b[m] + " " );
+			}
+			out.println();
 
+			//afstand
+	        out.println(f.format(d));
+	        //uitvoeringstijd
+	        out.println(duur);
+			        
+	        out.close();
+
+	      } catch (FileNotFoundException e) {
+	        e.printStackTrace();
+	      }
+		System.out.println("Done");
+	}
 
 
 }
