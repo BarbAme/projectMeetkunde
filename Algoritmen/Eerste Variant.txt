@@ -1,8 +1,12 @@
 rij  
 int d = infinity 
 
-While i = 0 < length(rij)
-	While (j = i+1 < length(rij)) AND (rij[j].x - rij[i].x < d)
+While i = 0 < length(rij) 
+//voor elk punt in de lijst:
+
+	While( j = i-1; j >= 0;) AND (rij[j].x - rij[i].x < d)
+		//alle punten die voor pi liggen en binnen V strook
+		
 		a = rij[i]
 		b = rij[j]
 		
@@ -10,7 +14,6 @@ While i = 0 < length(rij)
 			dpp1 = a
 			dpp2 = b
 			d = Afstand(a,b)
-		j++
-	i++
-
+		j--;
+	i++;
 return dpp1,dpp2,d			

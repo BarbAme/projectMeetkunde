@@ -12,7 +12,7 @@ public class Testen {
 		PrintStream out = new PrintStream(new FileOutputStream(
 	            "result_algoritme_"+algoritme+".txt"));
 		out.println("test");
-		for (int d = 2; d < 10; d++)
+		for (int d = 2; d <3; d++)
 		{
 			for(int alg = 1; alg < 3; alg ++){
 				algoritme = alg;

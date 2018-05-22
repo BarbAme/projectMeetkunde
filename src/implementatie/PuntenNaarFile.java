@@ -15,12 +15,13 @@ import java.text.DecimalFormatSymbols;
 
 
 public class PuntenNaarFile {
-	int dim = 0;		//Waarde voor M, dimensie
-	int aantalPunten=0; //aantal punten
-	int algoritme = 0;		//algoritme
+	
 	
 	public static void main(String[] args ) {
-		
+		int dim = 3;		//Waarde voor M, dimensie
+		int aantalPunten=10000; //aantal punten
+		int algoritme = 1;		//algoritme
+		puntenMaken(dim,aantalPunten,algoritme);
 
 
 	}
@@ -38,7 +39,7 @@ public class PuntenNaarFile {
 				
 			    try {
 			        PrintStream out = new PrintStream(new FileOutputStream(
-			            "OutFile"+aantalPunten+"p"+dim+"d"+".txt"));
+			            "OutFile"+aantalPunten+"p"+dim+"d1"+".txt"));
 			        out.println(algoritme);
 			        out.println(dim);
 			        out.println(aantalPunten);

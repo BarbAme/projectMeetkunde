@@ -13,18 +13,18 @@ import java.text.DecimalFormatSymbols;
 import java.util.Arrays;
 
 public class Main {
-	//static int algoritme = 0;
+	 //static int algoritme = 0;
 	//static int M = 0;
 	//static int aantal = 0;
 	//static double[][] punten = null;
-
+	static int algoritme = 0;
+	static int M = 0;
+	static int aantal = 0;
+	static double[][] punten = null;
 	
 	public static void main(String[] args) {
-		int algoritme = 0;
-		int M = 0;
-		int aantal = 0;
-		double[][] punten = null;
-		punten = puntenInlezen(algoritme, M, aantal, punten);
+		
+		punten = puntenInlezen();
 		System.out.println("algoritme: " + algoritme + " " + "dimensie: "+  M);
 		Arrays.sort(punten, (a, b) -> Double.compare(a[0], b[0]));
 		//print2D(punten);
@@ -55,14 +55,14 @@ public class Main {
 		}
 		return tijd;
 	}
-	public static double[][] puntenInlezen(int algoritme, int M, int aantal,double[][] punten){
+	public static double[][] puntenInlezen(){
 		//punten inlezen van textfile als array
 		
 			
 			try {
 				
 				//input file
-		        File f = new File("OutFile1000p2d.txt");				//TODO bij final, input.txt
+		        File f = new File("OutFile10000p3d2a.txt");				//TODO bij final, input.txt
 		        BufferedReader b = new BufferedReader(new FileReader(f));
 		
 		        //lijn per lijn inlezen
@@ -181,15 +181,15 @@ public class Main {
 		int dpp2 = 0;
 		int j = 0;
 		for(int i=0;i<aantal;i++){
-			j = i+1;
-			while ((j<aantal)&&(Math.abs(punten[i][0]-punten[j][0])<d)){
+			j = i-1;
+			while ((j>=0)&&(Math.abs(punten[i][0]-punten[j][0])<d)){
 				afst = Afstand(i,j,M,punten);
 				if ( afst < d){
 					d = afst;
 					dpp1 = i;
 					dpp2 = j;
 				}
-				j++;
+				j--;
 			}
 		}
 		long duur = System.currentTimeMillis() - tijd1;
