@@ -1,0 +1,12 @@
+Tijd verstreken bij oplopend aantal punten in 2 dimensies
+
+Eenvoudig algoritme
+6250 	12500 	25000 	50000 	100000 	200000 	400000 	800000 
+112 	558 	2127 	8456 	27200	te lang
+
+Eerste variant:
+6250 	12500 	25000 	50000 	100000 	200000 	400000 	800000 
+1 		1 		4 		3 		3 		4 		21 		39 
+1 	1 	4 	3 	3 	4 	21 	39 
+
+

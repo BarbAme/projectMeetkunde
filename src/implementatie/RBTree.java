@@ -402,8 +402,8 @@ public class RBTree <Key extends Comparable<Key>, Value> {
          private Node floor(Node x, Key key) {
              if (x == null) return null;
              int cmp = key.compareTo(x.key);
-             if (cmp == 0) return x;
-             if (cmp < 0)  return floor(x.left, key);
+            // if (cmp == 0) return x;
+             if (cmp <= 0)  return floor(x.left, key);
              Node t = floor(x.right, key);
              if (t != null) return t; 
              else           return x;
@@ -428,8 +428,8 @@ public class RBTree <Key extends Comparable<Key>, Value> {
          private Node ceiling(Node x, Key key) {  
              if (x == null) return null;
              int cmp = key.compareTo(x.key);
-             if (cmp == 0) return x;
-             if (cmp > 0)  return ceiling(x.right, key);
+             //if (cmp == 0) return x;
+             if (cmp >= 0)  return ceiling(x.right, key);
              Node t = ceiling(x.left, key);
              if (t != null) return t; 
              else           return x;

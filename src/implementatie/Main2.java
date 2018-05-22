@@ -139,6 +139,7 @@ public class Main2 {
 		RBTree<Double,Double[]> t = new RBTree<Double,Double[]>();
 		long tijd1 = System.currentTimeMillis();
 		double d = Double.POSITIVE_INFINITY;
+		
 		double[] dpp1 = null;
 		double[] dpp2 = null;
 		 
@@ -151,7 +152,8 @@ public class Main2 {
 			
 			//punten boven p_i
 			boven = t.boven(punten[i][1]);
-		    while (Math.abs(boven[1] - punten[i][1]) < d){
+			
+		    while ((boven != null)&&(Math.abs(boven[1] - punten[i][1]) < d)){
 		    	//binnen horizontale strook
 		      if (Afstand(punten[i], boven) < d){
 		    	  //kortere afstand
@@ -161,11 +163,14 @@ public class Main2 {
 		      }
 				   
 		      boven = t.boven(boven[1]);
-		    }
+		    
+			}
 		    
 		    //punten onder p_i
+			
 		    onder = t.onder(punten[i][1]);
-		    while (Math.abs(onder[1] - punten[i][1]) < d){
+		    
+		    while ((onder != null)&&(Math.abs(onder[1] - punten[i][1]) < d)){
 		      if (Afstand(punten[i], onder) < d){
 					  dpp1 = onder;
 					  dpp2 = punten[i];
@@ -174,6 +179,7 @@ public class Main2 {
 				   
 		      onder = t.onder(onder[1]);
 		    }
+			
 		}
 	    long duur = System.currentTimeMillis() - tijd1;
 		Output(dpp1,dpp2,d,duur, punten, M);
@@ -273,4 +279,3 @@ public class Main2 {
 
 
 }
-
