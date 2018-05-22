@@ -1,26 +1,41 @@
 test
 algoritme: 3
 dimensie: 2
-aantal: 1
-tijd: 1
+aantal: 6250
+tijd: 15
 
 algoritme: 3
 dimensie: 2
-aantal: 10
-tijd: 0
+aantal: 12500
+tijd: 15
 
 algoritme: 3
 dimensie: 2
-aantal: 100
-tijd: 1
+aantal: 25000
+tijd: 38
 
 algoritme: 3
 dimensie: 2
-aantal: 1000
-tijd: 6
+aantal: 50000
+tijd: 74
 
 algoritme: 3
 dimensie: 2
-aantal: 10000
-tijd: 11
+aantal: 100000
+tijd: 130
+
+algoritme: 3
+dimensie: 2
+aantal: 200000
+tijd: 308
+
+algoritme: 3
+dimensie: 2
+aantal: 400000
+tijd: 696
+
+algoritme: 3
+dimensie: 2
+aantal: 800000
+tijd: 1477
 

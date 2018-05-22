@@ -1,11 +1,6 @@
 test
 algoritme: 2
 dimensie: 2
-aantal: 1
-tijd: 0
-
-algoritme: 2
-dimensie: 2
 aantal: 10
 tijd: 0
 
@@ -22,15 +17,15 @@ tijd: 0
 algoritme: 2
 dimensie: 2
 aantal: 10000
-tijd: 3
+tijd: 4
 
 algoritme: 2
 dimensie: 2
 aantal: 100000
-tijd: 12
+tijd: 18
 
 algoritme: 2
 dimensie: 2
 aantal: 1000000
-tijd: 82
+tijd: 58
 

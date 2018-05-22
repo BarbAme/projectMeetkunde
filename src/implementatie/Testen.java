@@ -20,7 +20,7 @@ public class Testen {
 		{
 			for(int alg = algoritmeMin; alg <= algoritmeMax; alg ++){
 				
-				for(int aantal = 1; aantal < 1000001; aantal = aantal *10)
+				for(int aantal = 10; aantal < 1000001; aantal = aantal *10)
 				{
 					
 					PuntenNaarFile.puntenMaken(d, aantal, alg);
