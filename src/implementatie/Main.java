@@ -57,10 +57,10 @@ public class Main {
 		}
 		return tijd;
 	}
+	
 	public static double[][] puntenInlezen(){
 		//punten inlezen van textfile als array
-		
-			
+					
 			try {
 				
 				//input file
@@ -99,13 +99,10 @@ public class Main {
 		        e.printStackTrace();
 		    }
 
-		
-
 			return punten;
 		}
 	public static double[][] puntenInlezen(String invoer,int algoritme, int M, int aantal,double[][] punten){
 	//punten inlezen van textfile als array
-	
 		
 		try {
 			
@@ -145,12 +142,8 @@ public class Main {
 	        e.printStackTrace();
 	    }
 
-	
-
 		return punten;
 	}
-	
-
 	
 	public static long EenvoudigAlgoritme(int aantal, int M,double[][] punten){
 		long tijd1 = System.currentTimeMillis();
@@ -159,10 +152,8 @@ public class Main {
 		int dpp1 = 0;
 		int dpp2 = 0;
 		for(int i=0;i<aantal;i++){
-			for(int j=i+1;j<aantal;j++){
-			
-				afst = Afstand(i,j,M,punten);
-				
+			for(int j=i+1;j<aantal;j++){			
+				afst = Afstand(i,j,M,punten);				
 				if ( afst < d){
 					d = afst;
 					dpp1 = i;
@@ -222,7 +213,7 @@ public class Main {
 					  dpp1 = boven;
 					  dpp2 = punten[i];
 					  d = Afstand(dpp1, dpp2);
-		      }
+		      }		      
 				   
 		      boven = t.boven(boven[1]);
 		    }
