@@ -252,10 +252,10 @@ public class Main {
 		      
 		      double [] min = t.min();
 		      while (min[0] < punten[i][0] - d) {
-		    	  t.delete(p);
+		    	  t.deleteMin();
 		    	  min = t.min();		    	  
-		    	  }
 		      }
+		      
 			   
 		      boven = t.boven(boven[1]);
 		    
@@ -274,9 +274,8 @@ public class Main {
 		      
 		      double [] min = t.min();
 		      while (min[0] < punten[i][0] - d) {
-		    	  t.delete(p);
-		    	  min = t.min();		    	  
-		    	  }
+		    	  t.deleteMin();
+		    	  min = t.min();		    	  	    	  
 		      }
 				   
 		      onder = t.onder(onder[1]);
