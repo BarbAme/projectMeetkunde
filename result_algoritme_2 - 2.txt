@@ -17,15 +17,2485 @@ tijd: 0
 algoritme: 2
 dimensie: 2
 aantal: 10000
-tijd: 4
+tijd: 1
 
 algoritme: 2
 dimensie: 2
 aantal: 100000
-tijd: 18
+tijd: 15
 
 algoritme: 2
 dimensie: 2
-aantal: 1000000
-tijd: 58
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 6
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 4
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 8
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 4
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 4
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 4
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 4
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 5
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 4
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 5
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 4
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 6
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 4
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 5
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 6
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 5
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 5
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 6
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 4
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 7
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 6
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 7
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 4
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 7
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 4
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 5
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 6
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 5
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 5
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 4
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 6
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 4
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 4
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 2
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 3
+
+algoritme: 2
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 100
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 1000
+tijd: 0
+
+algoritme: 2
+dimensie: 2
+aantal: 10000
+tijd: 1
+
+algoritme: 2
+dimensie: 2
+aantal: 100000
+tijd: 5
 

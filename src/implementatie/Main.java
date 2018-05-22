@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.text.DecimalFormat;
@@ -45,7 +46,7 @@ public class Main {
 		double[][] punten = null;
 		long tijd = 999;;
 		punten = puntenInlezen(invoer, algoritme, M, aantal, punten);
-		System.out.println("algoritme: " + algoritme + " " + "dimensie: "+  M + " punten: " + aantal);
+	//	System.out.println("algoritme: " + algoritme + " " + "dimensie: "+  M + " punten: " + aantal);
 		Arrays.sort(punten, (a, b) -> Double.compare(a[0], b[0]));
 		switch(algoritme){
 		case 1: tijd =EenvoudigAlgoritme(aantal, M,punten);
@@ -194,8 +195,30 @@ public class Main {
 			k_max = Math.max(k_instance[i], k_max);
 		}
 		k_gem = k_gem/aantal;
-		System.out.println("N = " + aantal + " M = " + M + " k_gem = "+k_gem+" k_max = "+k_max);
+		//System.out.println("N = " + aantal + " M = " + M + " k_gem = "+k_gem+" k_max = "+k_max);
 		long duur = System.currentTimeMillis() - tijd1;
+		try
+		{
+		    String filename= "outputK_gem.txt";
+		    FileWriter fw = new FileWriter(filename,true); //the true will append the new data
+		    fw.write(k_gem + " ");//appends the string to the file
+		    fw.close();
+		}
+		catch(IOException ioe)
+		{
+		    System.err.println("IOException: " + ioe.getMessage());
+		}
+		try
+		{
+		    String filename= "outputK_max.txt";
+		    FileWriter fw = new FileWriter(filename,true); //the true will append the new data
+		    fw.write(k_max + " ");//appends the string to the file
+		    fw.close();
+		}
+		catch(IOException ioe)
+		{
+		    System.err.println("IOException: " + ioe.getMessage());
+		}
 		Output(dpp1,dpp2,d,duur, punten, M);
 		return duur;
 	}
