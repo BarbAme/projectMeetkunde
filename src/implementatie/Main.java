@@ -24,7 +24,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		punten = puntenInlezen();
-		System.out.println("algoritme: " + algoritme + " " + "dimensie: "+  M + " punten: " + aantal);
+		//System.out.println("algoritme: " + algoritme + " " + "dimensie: "+  M + " punten: " + aantal);
 		Arrays.sort(punten, (a, b) -> Double.compare(a[0], b[0]));
 		//print2D(punten);
 		
@@ -64,7 +64,7 @@ public class Main {
 			try {
 				
 				//input file
-		        File f = new File("OutFile10000p3d2a.txt");				//TODO bij final, input.txt
+		        File f = new File("input.txt");				//TODO bij final, input.txt
 		        BufferedReader b = new BufferedReader(new FileReader(f));
 		
 		        //lijn per lijn inlezen
@@ -181,11 +181,17 @@ public class Main {
 		double afst = 0;
 		int dpp1 = 0;
 		int dpp2 = 0;
+		double k_gem = 0; //hoeveel elementen er gemiddeld binnen V 
+		int[] k_instance = new int[aantal]; //hoeveel elementen er binnen V liggen in 1 geval
+		int k_max = 0; //hoeveel elementen er binnen V liggen in hoogste geval
 		int j = 0;
 		for(int i=0;i<aantal;i++){
 			j = i-1;
+			
+			k_instance[i] = 0;
 			while ((j>=0)&&(Math.abs(punten[i][0]-punten[j][0])<d)){
 				afst = Afstand(i,j,M,punten);
+				k_instance[i]++;
 				if ( afst < d){
 					d = afst;
 					dpp1 = i;
@@ -193,7 +199,11 @@ public class Main {
 				}
 				j--;
 			}
+			k_gem = k_gem + k_instance[i];
+			k_max = Math.max(k_instance[i], k_max);
 		}
+		k_gem = k_gem/aantal;
+		System.out.println("N = " + aantal + " M = " + M + " k_gem = "+k_gem+" k_max = "+k_max);
 		long duur = System.currentTimeMillis() - tijd1;
 		Output(dpp1,dpp2,d,duur, punten, M);
 		return duur;
@@ -203,6 +213,7 @@ public class Main {
 		RBTree<Double,Double[]> t = new RBTree<Double,Double[]>();
 		long tijd1 = System.currentTimeMillis();
 		double d = Double.POSITIVE_INFINITY;
+		
 		double[] dpp1 = null;
 		double[] dpp2 = null;
 		 
@@ -215,7 +226,8 @@ public class Main {
 			
 			//punten boven p_i
 			boven = t.boven(punten[i][1]);
-		    while (Math.abs(boven[1] - punten[i][1]) < d){
+			
+		    while ((boven != null)&&(Math.abs(boven[1] - punten[i][1]) < d)){
 		    	//binnen horizontale strook
 		      if (Afstand(punten[i], boven) < d){
 		    	  //kortere afstand
@@ -225,11 +237,14 @@ public class Main {
 		      }
 				   
 		      boven = t.boven(boven[1]);
-		    }
+		    
+			}
 		    
 		    //punten onder p_i
+			
 		    onder = t.onder(punten[i][1]);
-		    while (Math.abs(onder[1] - punten[i][1]) < d){
+		    
+		    while ((onder != null)&&(Math.abs(onder[1] - punten[i][1]) < d)){
 		      if (Afstand(punten[i], onder) < d){
 					  dpp1 = onder;
 					  dpp2 = punten[i];
@@ -238,12 +253,13 @@ public class Main {
 				   
 		      onder = t.onder(onder[1]);
 		    }
+			
 		}
 	    long duur = System.currentTimeMillis() - tijd1;
 		Output(dpp1,dpp2,d,duur, punten, M);
 		return duur;
 
-	}			
+	}	
 	
 	public static double Afstand(int a, int b, int M,double[][] punten){
 		double som = 0;
@@ -302,7 +318,7 @@ public class Main {
 	      } catch (FileNotFoundException e) {
 	        e.printStackTrace();
 	      }
-		System.out.println("Done");
+		//System.out.println("Done");
 	}
 	public static void Output(double[] a, double[] b, double d, long duur, double[][] punten, int M){
 		try {

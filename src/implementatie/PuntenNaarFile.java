@@ -18,7 +18,7 @@ public class PuntenNaarFile {
 	
 	
 	public static void main(String[] args ) {
-		int dim = 3;		//Waarde voor M, dimensie
+		int dim = 1;		//Waarde voor M, dimensie
 		int aantalPunten=10000; //aantal punten
 		int algoritme = 1;		//algoritme
 		puntenMaken(dim,aantalPunten,algoritme);
@@ -57,7 +57,7 @@ public class PuntenNaarFile {
 			        e.printStackTrace();
 			      }
 
-			    System.out.println("Done");
+			    //System.out.println("Done");
 	}
 }
 

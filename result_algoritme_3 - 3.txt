@@ -1,0 +1,26 @@
+test
+algoritme: 3
+dimensie: 2
+aantal: 1
+tijd: 1
+
+algoritme: 3
+dimensie: 2
+aantal: 10
+tijd: 0
+
+algoritme: 3
+dimensie: 2
+aantal: 100
+tijd: 1
+
+algoritme: 3
+dimensie: 2
+aantal: 1000
+tijd: 6
+
+algoritme: 3
+dimensie: 2
+aantal: 10000
+tijd: 11
+

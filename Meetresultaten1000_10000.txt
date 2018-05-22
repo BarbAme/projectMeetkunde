@@ -1,0 +1,10 @@
+Tijd verstreken bij oplopend aantal punten in 2 dimensies
+
+Eenvoudig algoritme:
+1000 	2000 	3000 	4000 	5000 	6000 	7000 	8000 	9000 	10000 
+9 		17 		22 		48 		62 		100 	156 	187 	231 	296 
+
+
+Eerste variant:
+1000 	2000 	3000 	4000 	5000 	6000 	7000 	8000 	9000 	10000 
+0 		1 		1 		0 		1 		1 		1 		1 		1 		0 
