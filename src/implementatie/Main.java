@@ -252,8 +252,14 @@ public class Main {
 					  dpp2 = punten[i];
 					  d = Afstand(dpp1, dpp2);
 		      }
-				   
+		      if (Math.abs(boven[0] - punten[i][0]) > d) {
+		    	  check2 = t.boven(boven[1]);
+		    	  t.delete(boven[1]);
+		    	  boven = check2;
+		      }
+		      else{   
 		      boven = t.boven(boven[1]);
+		      }
 		    
 			}
 		    
@@ -267,8 +273,14 @@ public class Main {
 					  dpp2 = punten[i];
 					  d = Afstand(dpp1, dpp2);
 		      }	  
-				   
-		      onder = t.onder(onder[1]);
+		      if (Math.abs(onder[0] - punten[i][0]) > d) {
+		    	  check2 = t.onder(onder[1]);
+		    	  t.delete(onder[1]);
+		    	  onder = check2;
+		      }
+		      else{   
+		    	  onder = t.onder(onder[1]);
+		      }
 		    }
 		      
 		      check = t.min();
