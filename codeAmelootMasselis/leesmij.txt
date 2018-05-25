@@ -1,1 +1,21 @@
 Om het programma uit te voeren moet de input in het "invoerpunten.txt" bestand geplaatst worden. Deze moet in dezelfde map als het programma staan en van de vorm zijn zoals beschreven in 2.1 van de opgave. De output wordt in het "uitvoerpunten.txt" geschreven in de vorm zoals beschreven staat in 2.1.  
+
+De broncode zit in de gezipte map. Deze bevat de volgende bestanden:
+
+Main.java
+(het hoofdprogramma met extra code voor testen uit te voeren)
+
+Main2.java
+(het hoofdprogramma zonder overbodige test code)
+
+PuntenNaarFile.java
+(om een puntenverzameling te genereren)
+
+RBTree.java
+(implementatie van de RB-tree die voor de 2e variant van het doorlooplijnalgoritme is gebruikt)
+
+Sort.java
+(de functie die wordt aangeroepen om de puntenverzameling te sorteren)
+
+Testen.java
+(het programma dat we gebruikt hebben om de testen uit te voeren)

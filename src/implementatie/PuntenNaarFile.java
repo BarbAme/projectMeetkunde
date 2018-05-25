@@ -1,12 +1,7 @@
 package implementatie;
-import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.io.PrintStream;
-import java.io.PrintWriter;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 
@@ -39,7 +34,7 @@ public class PuntenNaarFile {
 				
 			    try {
 			        PrintStream out = new PrintStream(new FileOutputStream(
-			            "OutFile"+aantalPunten+"p"+dim+"d"+".txt"));
+			            "invoerpunten.txt"));
 			        out.println(algoritme);
 			        out.println(dim);
 			        out.println(aantalPunten);

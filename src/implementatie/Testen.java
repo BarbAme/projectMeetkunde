@@ -44,23 +44,29 @@ public class Testen {
 		
 		String invoer;
 		long tijd = 999;
+		
+		//algoritme(s) hier ingeven
 		int algoritmeMin = 3;
 		int algoritmeMax = 3;
+		
+		//aantal iteraties hier ingeven
+		int aantalIteraties = 1;
 		ArrayList<Integer> aantalPunten = new ArrayList<Integer>();
 		ArrayList<Long> tijdNodig = new ArrayList<Long>();
 		PrintStream out = new PrintStream(new FileOutputStream(
 	            "result_algoritme_"+algoritmeMin + " - " + algoritmeMax +".txt"));
 		out.println("test");
-		for (int runs = 0; runs < 1; runs ++){
+		for (int runs = 0; runs < aantalIteraties; runs ++){
 		for (int d = 2; d <3; d++)
 		{
 			for(int alg = algoritmeMin; alg <= algoritmeMax; alg ++){
 				
-				for(int aantal = 100; aantal < 1000001; aantal = aantal *2)
+				//aantal punten hier ingeven
+				for(int aantal = 100; aantal < 10001; aantal = aantal *2)
 				{
 					
 					PuntenNaarFile.puntenMaken(d, aantal, alg);
-					invoer = ("OutFile"+aantal+"p"+d+"d"+".txt");
+					invoer = ("invoerpunten.txt");
 					tijd = Main.uitvoeren(invoer, alg, d, aantal);
 					
 					aantalPunten.add(aantal);

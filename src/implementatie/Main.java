@@ -13,10 +13,7 @@ import java.text.DecimalFormatSymbols;
 import java.util.Arrays;
 
 public class Main {
-	 //static int algoritme = 0;
-	//static int M = 0;
-	//static int aantal = 0;
-	//static double[][] punten = null;
+	//main bestand met code die in "Testen.java" gebruikt is
 	static int algoritme = 0;
 	static int M = 0;
 	static int aantal = 0;
@@ -27,7 +24,7 @@ public class Main {
 		punten = puntenInlezen();
 		//System.out.println("algoritme: " + algoritme + " " + "dimensie: "+  M + " punten: " + aantal);
 		Arrays.sort(punten, (a, b) -> Double.compare(a[0], b[0]));
-		//print2D(punten);
+
 		
 		switch(algoritme){
 		case 1: EenvoudigAlgoritme(aantal, M,punten);
@@ -65,7 +62,7 @@ public class Main {
 			try {
 				
 				//input file
-		        File f = new File("input.txt");				//TODO bij final, input.txt
+		        File f = new File("invoerpunten.txt");				//TODO bij final, input.txt
 		        BufferedReader b = new BufferedReader(new FileReader(f));
 		
 		        //lijn per lijn inlezen
@@ -363,7 +360,7 @@ public class Main {
 	}
 	public static void Output(double[] a, double[] b, double d, long duur, double[][] punten, int M){
 		try {
-	        PrintStream out = new PrintStream(new FileOutputStream("output.txt"));
+	        PrintStream out = new PrintStream(new FileOutputStream("uitvoerpunten.txt"));
 	        
 	        DecimalFormat f = new DecimalFormat("0.000000000000000");
 		    DecimalFormatSymbols sym = DecimalFormatSymbols.getInstance();

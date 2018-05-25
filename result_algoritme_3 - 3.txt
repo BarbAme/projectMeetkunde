@@ -1,0 +1,36 @@
+test
+algoritme: 3
+dimensie: 2
+aantal: 100
+tijd: 1
+
+algoritme: 3
+dimensie: 2
+aantal: 200
+tijd: 1
+
+algoritme: 3
+dimensie: 2
+aantal: 400
+tijd: 1
+
+algoritme: 3
+dimensie: 2
+aantal: 800
+tijd: 2
+
+algoritme: 3
+dimensie: 2
+aantal: 1600
+tijd: 1
+
+algoritme: 3
+dimensie: 2
+aantal: 3200
+tijd: 2
+
+algoritme: 3
+dimensie: 2
+aantal: 6400
+tijd: 5
+
