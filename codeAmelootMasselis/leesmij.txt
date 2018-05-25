@@ -1,0 +1,1 @@
+Om het programma uit te voeren moet de input in het "invoerpunten.txt" bestand geplaatst worden. Deze moet in dezelfde map als het programma staan en van de vorm zijn zoals beschreven in 2.1 van de opgave. De output wordt in het "uitvoerpunten.txt" geschreven in de vorm zoals beschreven staat in 2.1.  
